@@ -16,6 +16,4 @@ The scan partition will be assigned to each shard, and each shard will get data 
 
 ![image](https://user-images.githubusercontent.com/22080060/113481211-cbe4b480-94ca-11eb-83f5-c869c273d069.png)
 
-The scan partition will be assigned to each shard, and each shard will get data from ClickHouse through the conditions of the scan partition
-
-
+A write partition will be allocated to a shard, and the data will be written to the clickhosue that can be reached under the shard
